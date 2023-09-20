@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-# get_kfo.py 05/04/2022
+# get_fo_data.py 05/04/2022
 # 
-# it reads the hadron data in the smash collision files and extract
+# it reads the hadron data in the smash collision files and extracts
 # the position and the momenta of selected hadrons at chemical and kinetic freezeout
 
 import math
@@ -137,7 +137,7 @@ def extract_data(inputfile,hadron_list):
 
 if (__name__ == "__main__" ):
     if (len(sys.argv)<3):
-        print ('Syntax: ./get_kfo.py <output file suffix> <smash collision file 1> [smash collision file 2] ...')
+        print ('Syntax: ./get_fo_data.py <output file suffix> <smash collision file 1> [smash collision file 2] ...')
         sys.exit(1)
     else:
         total_events=0
