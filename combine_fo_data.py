@@ -1,8 +1,8 @@
 #!/usr/bin/python3
 
-# combine_kfo.py 09/04/2022
+# combine_fo_data.py 09/04/2022
 # 
-# it combines the output files by get_kfo.py
+# it combines the output files produced by get_fo_data.py
 
 import math
 import numpy as np
@@ -10,7 +10,7 @@ import os
 import sys
 
 if len(sys.argv) < 4:
-    print("Syntax: python3 combine_kfo.py <outputfile> <inputfile1> <inputfile2> ... <inputfileN>")
+    print("Syntax: python3 combine_fo_data.py <outputfile> <inputfile1> <inputfile2> ... <inputfileN>")
     sys.exit(1)
 
 if (os.path.exists(sys.argv[1])):
