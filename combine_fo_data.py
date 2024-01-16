@@ -10,11 +10,11 @@ import os
 import sys
 
 if len(sys.argv) < 4:
-    print("Syntax: python3 combine_fo_data.py <outputfile> <inputfile1> <inputfile2> ... <inputfileN>")
+    print("Syntax: python3 combine_fo_data.py <outputfile> <inputfile1> [inputfile2] ... [inputfileN]")
     sys.exit(1)
 
 if (os.path.exists(sys.argv[1])):
-    print("Output file "+sys.argv[1]+" already exists. I will no overwrite it.")
+    print("Output file "+sys.argv[1]+" already exists. I will not overwrite it.")
     sys.exit(1)
 
 
