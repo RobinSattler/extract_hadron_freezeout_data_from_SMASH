@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import math
 import numpy as np
 import sys
@@ -38,7 +40,7 @@ nz=int(math.floor(2*zside/dz))
 N_input_files=len(sys.argv)-1
 
 if(N_input_files!=2):
-  print ('Syntax: ./compute_dN.py <inputfile> <output_prefix>')
+  print ('Syntax: ./compute_dN_fo_data.py <inputfile> <output_prefix>')
   sys.exit(1)
 
 inputfile=sys.argv[1]
