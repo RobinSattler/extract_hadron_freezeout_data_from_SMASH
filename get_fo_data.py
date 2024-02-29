@@ -11,7 +11,9 @@ import os
 import sys
 
 # tuple with the PDG IDs of the hadron to search
-hadron_tuple = (3122,3212)
+# \Lambda, \Sigma^0, \Xi^0, \Xi^-, \Omega^- and \bar{\Lambda}
+# (3122,3212,3322,3312,3334,-3122)
+hadron_tuple = (3122,3212,-3122,-3212)
 
 # we ignore time differences smaller than this one
 tiny_dt=1.e-12
