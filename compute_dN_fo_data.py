@@ -13,7 +13,7 @@ dt=1
 time_min=0.5
 
 #time max at center value (we'll add dt/2)
-tmax=160
+tmax=300
 
 #rapidity limit in absolute value
 raplim=1
